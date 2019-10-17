@@ -6,3 +6,5 @@ NIPALS: an iterative fast method which is applicable also to data with missing v
 PPCA: Probabilistic PCA which is applicable also on data with missing values. Missing value estimation is typically better than NIPALS but also slower to compute and uses more memory. A port to R of the implementation by Jakob Verbeek.
 BPCA: Bayesian PCA which performs very well in the presence of missing values but is slower than PPCA. A port of the matlab implementation by Shigeyuki Oba.
 NLPCA: Non-linear PCA which can find curves in data and in presence of such can perform accurate missing value estimation. Matlab port of the implementation by Mathias Scholz.
+
+Is this really the way we should intrdouce the R pacakge? 
